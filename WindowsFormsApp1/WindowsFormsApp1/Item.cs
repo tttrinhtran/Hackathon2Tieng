@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp1
 {
-    internal class Item
+    public class Item
     {
-        float price;
-        string name;
-        string type;
+        public float price { get; set; }
+        public string name { get; set; }
+        public string type { get; set; }
     }
    
 }
