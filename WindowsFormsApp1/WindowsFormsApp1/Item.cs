@@ -9,7 +9,7 @@ using System.IO;
 namespace WindowsFormsApp1
 {
 
-    enum Type
+    public enum Type
     {
         Cà_phê,
         Sinh_tố,
@@ -18,7 +18,7 @@ namespace WindowsFormsApp1
         Bánh_ngọt
 
     }
-    internal class Item
+   public class Item
     {
         float price;
         string name;
@@ -84,6 +84,7 @@ namespace WindowsFormsApp1
                     throw new ArgumentException($"Invalid item type: {typeString}");
             }
         }
+
     }
    
 }
