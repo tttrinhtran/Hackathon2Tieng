@@ -1,0 +1,46 @@
+15
+Cà phê đen nóng
+20.000
+Cà phê
+Cà phê đen đá
+25.000
+Cà phê
+Cà phê sữa nóng
+20.000
+Cà phê
+Dâu cam bạc hà
+45.000
+SINH TỐ
+Chuối Chocolate
+45.000
+SINH TỐ
+Matcha đá xay
+45.000
+SINH TỐ
+Nước ép cam
+30.000
+Nước ép
+Chanh dây
+30.000
+Nước ép
+Nước ép cà rốt
+30.000
+Nước ép
+Croissant bơ
+15.000
+Thức ăn
+Croissant sandwich
+15.000
+Thức ăn
+Bò kho bánh mì
+15.000
+Thức ăn
+Mousse chanh dây
+35.000
+Bánh ngọt
+Tiramisu
+35.000
+Bánh ngọt
+Mousse Velvet
+35.000
+Bánh ngọt
