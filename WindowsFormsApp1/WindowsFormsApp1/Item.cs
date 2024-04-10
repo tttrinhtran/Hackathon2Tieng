@@ -20,14 +20,21 @@ namespace WindowsFormsApp1
     }
    public class Item
     {
-        float price;
-        string name;
-        Type type;
+        public float price { get; set; }
+        public string name { get; set; }
+        public Type type { get; set; }
         public Item(string name, float price, Type type)
         {
             this.price = price;
             this.name = name;
             this.type = type;
+        }
+
+        public Item()
+        {
+            this.price = 0;
+            this.name = "";
+            this.type = 0;
         }
 
         public List<Item> ReadItemsFromFile(string filePath)
@@ -85,6 +92,18 @@ namespace WindowsFormsApp1
             }
         }
 
+        private List<Item> getItemByType(string type, List<Item> listItem)
+        {
+            List<Item> res = new List<Item>(); 
+            foreach (var item in listItem)
+            {
+                if (item.type.ToString() == type)
+                {
+                    res.Add(item);
+                }
+            }
+            return res; 
+        }
     }
    
 }
