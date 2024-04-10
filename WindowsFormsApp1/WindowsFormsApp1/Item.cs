@@ -8,5 +8,9 @@ namespace WindowsFormsApp1
 {
     internal class Item
     {
+        float price;
+        string name;
+        string type;
     }
+   
 }

@@ -8,5 +8,8 @@ namespace WindowsFormsApp1
 {
     internal class ThongKe
     {
+        List<Bill> bills;
+        float total;
+        DateTime date;
     }
 }
