@@ -8,11 +8,21 @@ namespace WindowsFormsApp1
 {
      class Program
     {
-      
-     
+
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+        /// 
+
+        void Init()
+        {
+            ThongKe thongke = new ThongKe(); 
+            thongke.bills = new List<Bill>();
+            thongke.date = DateTime.Now;
+            thongke.total = 0;
+        }
+
         [STAThread]
         static void Main()
         {
